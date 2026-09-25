@@ -1,0 +1,470 @@
+{
+  "meta": {
+    "generatedBy": "scripts/generate-data.mjs",
+    "seed": 20260925,
+    "firstCareDay": "2026-08-15",
+    "lastCareDay": "2026-09-25",
+    "synthetic": true
+  },
+  "residents": [
+    {
+      "residentId": "R01",
+      "name": "Mary Tattersall",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R02",
+      "name": "Eileen Sutcliffe",
+      "scenario": "constipation",
+      "kind": "finding",
+      "title": "Constipation",
+      "onsetDate": "2026-09-20",
+      "expectedPriority": "amber",
+      "acceptablePriorities": [
+        "amber"
+      ],
+      "signals": [
+        "Bowels not opened for six days (usually daily)",
+        "Appetite dropping",
+        "Tummy ache, firm abdomen, straining (text only)",
+        "PRN laxative given without effect"
+      ]
+    },
+    {
+      "residentId": "R03",
+      "name": "Peggy Hargreaves",
+      "scenario": "copd_stable",
+      "kind": "confounder",
+      "title": "COPD — chronic productive cough, stable",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": [
+        "Cough and sputum every day — unchanged",
+        "SpO2 92% is this person's normal",
+        "Should NOT be flagged: nothing has changed"
+      ]
+    },
+    {
+      "residentId": "R04",
+      "name": "Gladys Barlow",
+      "scenario": "low_drinker",
+      "kind": "confounder",
+      "title": "Habitually low fluid intake, stable",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": [
+        "~950ml/day every day — below a generic 1500ml target but stable",
+        "Should NOT be flagged as a new change"
+      ]
+    },
+    {
+      "residentId": "R05",
+      "name": "Violet Ashworth",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R06",
+      "name": "Joan Schofield",
+      "scenario": "chest_clear",
+      "kind": "finding",
+      "title": "Chest infection / pneumonia developing",
+      "onsetDate": "2026-09-20",
+      "expectedPriority": "red",
+      "acceptablePriorities": [
+        "red"
+      ],
+      "signals": [
+        "New cough five days ago, frequent from day three",
+        "Sputum yellow then green (text only)",
+        "Woken by coughing at night",
+        "Appetite and fluids falling",
+        "Breathless, then drowsy today",
+        "Today's obs: T 38.2, P 108, RR 24, SpO2 91% → NEWS2 7"
+      ]
+    },
+    {
+      "residentId": "R07",
+      "name": "Ernest Taylor",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R08",
+      "name": "Norman Whittaker",
+      "scenario": "falls_delirium",
+      "kind": "finding",
+      "title": "New confusion and two falls — possible delirium",
+      "onsetDate": "2026-09-22",
+      "expectedPriority": "amber",
+      "acceptablePriorities": [
+        "amber",
+        "red"
+      ],
+      "signals": [
+        "Confusion beyond usual for three days (text only)",
+        "Unsettled nights",
+        "Unwitnessed fall two nights ago; witnessed slide from chair today",
+        "Trying to leave the unit",
+        "No infection signals yet — cause unclear"
+      ]
+    },
+    {
+      "residentId": "R09",
+      "name": "Phyllis Ramsbottom",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R10",
+      "name": "Dennis Pilling",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R11",
+      "name": "Brenda Walsh",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R12",
+      "name": "Sylvia Nuttall",
+      "scenario": "bad_night",
+      "kind": "confounder",
+      "title": "One disturbed night, explained",
+      "onsetDate": "2026-09-25",
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green",
+        "amber"
+      ],
+      "signals": [
+        "Awake many times last night — once, with a stated cause",
+        "Everything else normal",
+        "At most a low amber \"watch\"; never red"
+      ]
+    },
+    {
+      "residentId": "R13",
+      "name": "Albert Dawson",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R14",
+      "name": "Vera Crompton",
+      "scenario": "dehydration_subtle",
+      "kind": "finding",
+      "title": "Drinking and eating less — sore mouth",
+      "onsetDate": "2026-09-22",
+      "expectedPriority": "amber",
+      "acceptablePriorities": [
+        "amber"
+      ],
+      "signals": [
+        "Fluids down ~30% over three days",
+        "Meals down",
+        "Says mouth is sore (text only)",
+        "Mouth red and coated — possible oral thrush"
+      ]
+    },
+    {
+      "residentId": "R15",
+      "name": "Mavis Duckworth",
+      "scenario": "dehydration_clear",
+      "kind": "finding",
+      "title": "Dehydration — intake falling for a week",
+      "onsetDate": "2026-09-18",
+      "expectedPriority": "red",
+      "acceptablePriorities": [
+        "red",
+        "amber"
+      ],
+      "signals": [
+        "Fluid intake falling steadily to about half of usual",
+        "Fewer toilet visits",
+        "Reluctant to drink, dark urine, dry mouth (text only)",
+        "Drowsy in the afternoons",
+        "Dizzy on standing today; P 98, systolic BP 104"
+      ]
+    },
+    {
+      "residentId": "R16",
+      "name": "Doris Ogden",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R17",
+      "name": "Edna Greenhalgh",
+      "scenario": "diuretic",
+      "kind": "confounder",
+      "title": "On furosemide — frequent toileting is normal",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": [
+        "High day and night toilet counts every day — unchanged",
+        "Should NOT be flagged"
+      ]
+    },
+    {
+      "residentId": "R18",
+      "name": "Hilda Entwistle",
+      "scenario": "uti_clear",
+      "kind": "finding",
+      "title": "Urinary tract infection developing",
+      "onsetDate": "2026-09-21",
+      "expectedPriority": "red",
+      "acceptablePriorities": [
+        "red"
+      ],
+      "signals": [
+        "Night-time toilet visits climbing over four nights",
+        "Daytime frequency up",
+        "Urine dark and strong-smelling, then stinging on passing urine (text only)",
+        "New confusion from two days ago (text only)",
+        "New incontinence",
+        "Fluid intake down ~20%",
+        "Today's obs: T 37.9, P 102, new confusion → NEWS2 5"
+      ]
+    },
+    {
+      "residentId": "R19",
+      "name": "Marjorie Fletcher",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R20",
+      "name": "Jean Brierley",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R21",
+      "name": "Cyril Butterworth",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R22",
+      "name": "Audrey Kershaw",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R23",
+      "name": "Margaret Haworth",
+      "scenario": "uti_subtle",
+      "kind": "finding",
+      "title": "Possible early urinary infection",
+      "onsetDate": "2026-09-23",
+      "expectedPriority": "amber",
+      "acceptablePriorities": [
+        "amber"
+      ],
+      "signals": [
+        "Night toilet visits up over the last two nights",
+        "Restless, passing small amounts (text only)",
+        "Slight dip in fluids",
+        "No obs yet — nobody has checked"
+      ]
+    },
+    {
+      "residentId": "R24",
+      "name": "Kathleen Lomax",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R25",
+      "name": "Winifred Holden",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R26",
+      "name": "George Openshaw",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R27",
+      "name": "Frederick Clegg",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R28",
+      "name": "Irene Heywood",
+      "scenario": "chest_subtle",
+      "kind": "finding",
+      "title": "New cough, worsening",
+      "onsetDate": "2026-09-22",
+      "expectedPriority": "amber",
+      "acceptablePriorities": [
+        "amber"
+      ],
+      "signals": [
+        "New occasional cough three days ago",
+        "Frequent from yesterday, disturbing sleep",
+        "Yellow sputum today (text only)",
+        "Appetite slightly down",
+        "No obs taken"
+      ]
+    },
+    {
+      "residentId": "R29",
+      "name": "Frank Wood",
+      "scenario": "well",
+      "kind": "well",
+      "title": "No change — well",
+      "onsetDate": null,
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": []
+    },
+    {
+      "residentId": "R30",
+      "name": "Stanley Marsden",
+      "scenario": "recovered_chest",
+      "kind": "confounder",
+      "title": "Chest infection three weeks ago, recovered",
+      "onsetDate": "2026-09-01",
+      "expectedPriority": "green",
+      "acceptablePriorities": [
+        "green"
+      ],
+      "signals": [
+        "Cough, sputum, low appetite and antibiotics 24–15 days ago",
+        "Fully resolved",
+        "Tests that an old episode does not pollute today's comparison"
+      ]
+    }
+  ]
+}

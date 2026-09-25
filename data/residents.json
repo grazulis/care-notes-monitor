@@ -1,0 +1,839 @@
+{
+  "meta": {
+    "generatedBy": "scripts/generate-data.mjs",
+    "seed": 20260925,
+    "firstCareDay": "2026-08-15",
+    "lastCareDay": "2026-09-25",
+    "synthetic": true
+  },
+  "residents": [
+    {
+      "id": "R01",
+      "firstName": "Mary",
+      "lastName": "Tattersall",
+      "sex": "F",
+      "dateOfBirth": "1932-12-01",
+      "age": 93,
+      "unit": "Rose",
+      "room": 1,
+      "admittedOn": "2021-11-17",
+      "conditions": [
+        "Hypertension",
+        "Osteoarthritis",
+        "Hearing loss",
+        "Osteoporosis"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Alendronic acid 70mg weekly",
+        "Adcal-D3 BD"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R02",
+      "firstName": "Eileen",
+      "lastName": "Sutcliffe",
+      "sex": "F",
+      "dateOfBirth": "1938-05-28",
+      "age": 88,
+      "unit": "Rose",
+      "room": 2,
+      "admittedOn": "2024-12-25",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Osteoarthritis",
+        "Atrial fibrillation",
+        "Previous stroke"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Clopidogrel 75mg OD",
+        "Atorvastatin 20mg ON",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Continent",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1200,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R03",
+      "firstName": "Peggy",
+      "lastName": "Hargreaves",
+      "sex": "F",
+      "dateOfBirth": "1943-12-22",
+      "age": 82,
+      "unit": "Rose",
+      "room": 3,
+      "admittedOn": "2022-09-10",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Chronic kidney disease",
+        "Heart failure",
+        "COPD"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD",
+        "Tiotropium inhaler OD",
+        "Salbutamol inhaler PRN"
+      ],
+      "mobility": "Hoist, assistance of two",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": [
+        "Has COPD. A productive cough with white sputum is her normal. Usual SpO2 91–93% on air."
+      ]
+    },
+    {
+      "id": "R04",
+      "firstName": "Gladys",
+      "lastName": "Barlow",
+      "sex": "F",
+      "dateOfBirth": "1926-07-05",
+      "age": 100,
+      "unit": "Rose",
+      "room": 4,
+      "admittedOn": "2023-10-08",
+      "conditions": [
+        "Hypertension",
+        "Osteoarthritis"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1000,
+      "carePlanNotes": [
+        "Has always drunk small amounts. Fluid target of 1000ml agreed with GP; offer small cups often."
+      ]
+    },
+    {
+      "id": "R05",
+      "firstName": "Violet",
+      "lastName": "Ashworth",
+      "sex": "F",
+      "dateOfBirth": "1943-03-27",
+      "age": 83,
+      "unit": "Rose",
+      "room": 5,
+      "admittedOn": "2024-09-06",
+      "conditions": [
+        "Dementia",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Independent",
+      "continence": "Continent",
+      "cognition": "Mild dementia; short-term memory loss",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R06",
+      "firstName": "Joan",
+      "lastName": "Schofield",
+      "sex": "F",
+      "dateOfBirth": "1938-02-17",
+      "age": 88,
+      "unit": "Rose",
+      "room": 6,
+      "admittedOn": "2026-03-21",
+      "conditions": [
+        "Dementia",
+        "Osteoarthritis",
+        "Type 2 diabetes",
+        "Previous stroke"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Paracetamol 1g QDS",
+        "Metformin 500mg BD",
+        "Clopidogrel 75mg OD",
+        "Atorvastatin 20mg ON",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R07",
+      "firstName": "Ernest",
+      "lastName": "Taylor",
+      "sex": "M",
+      "dateOfBirth": "1944-07-28",
+      "age": 82,
+      "unit": "Rose",
+      "room": 7,
+      "admittedOn": "2024-07-13",
+      "conditions": [
+        "Chronic kidney disease",
+        "Type 2 diabetes"
+      ],
+      "medications": [
+        "Metformin 500mg BD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R08",
+      "firstName": "Norman",
+      "lastName": "Whittaker",
+      "sex": "M",
+      "dateOfBirth": "1937-12-30",
+      "age": 88,
+      "unit": "Rose",
+      "room": 8,
+      "admittedOn": "2021-11-15",
+      "conditions": [
+        "Dementia",
+        "Hearing loss",
+        "Type 2 diabetes",
+        "Previous stroke",
+        "Heart failure"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Metformin 500mg BD",
+        "Clopidogrel 75mg OD",
+        "Atorvastatin 20mg ON",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Mild dementia; short-term memory loss",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R09",
+      "firstName": "Phyllis",
+      "lastName": "Ramsbottom",
+      "sex": "F",
+      "dateOfBirth": "1930-09-18",
+      "age": 96,
+      "unit": "Rose",
+      "room": 9,
+      "admittedOn": "2020-11-18",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Osteoarthritis",
+        "Type 2 diabetes"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Metformin 500mg BD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R10",
+      "firstName": "Dennis",
+      "lastName": "Pilling",
+      "sex": "M",
+      "dateOfBirth": "1943-12-28",
+      "age": 82,
+      "unit": "Rose",
+      "room": 10,
+      "admittedOn": "2021-06-18",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Macular degeneration"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R11",
+      "firstName": "Brenda",
+      "lastName": "Walsh",
+      "sex": "F",
+      "dateOfBirth": "1937-09-20",
+      "age": 89,
+      "unit": "Rose",
+      "room": 11,
+      "admittedOn": "2025-07-16",
+      "conditions": [
+        "Hypertension",
+        "Osteoarthritis",
+        "Macular degeneration"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS"
+      ],
+      "mobility": "Independent",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R12",
+      "firstName": "Sylvia",
+      "lastName": "Nuttall",
+      "sex": "F",
+      "dateOfBirth": "1935-08-02",
+      "age": 91,
+      "unit": "Rose",
+      "room": 12,
+      "admittedOn": "2022-02-07",
+      "conditions": [
+        "Dementia",
+        "Hearing loss",
+        "Chronic kidney disease",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Continent",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R13",
+      "firstName": "Albert",
+      "lastName": "Dawson",
+      "sex": "M",
+      "dateOfBirth": "1930-08-01",
+      "age": 96,
+      "unit": "Rose",
+      "room": 13,
+      "admittedOn": "2025-09-13",
+      "conditions": [
+        "Dementia",
+        "Chronic kidney disease",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD"
+      ],
+      "mobility": "Independent",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Moderate dementia; needs prompting with most care",
+      "fluidTargetMl": 1200,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R14",
+      "firstName": "Vera",
+      "lastName": "Crompton",
+      "sex": "F",
+      "dateOfBirth": "1940-12-09",
+      "age": 85,
+      "unit": "Rose",
+      "room": 14,
+      "admittedOn": "2021-02-26",
+      "conditions": [
+        "Dementia",
+        "Osteoarthritis",
+        "Type 2 diabetes"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Paracetamol 1g QDS",
+        "Metformin 500mg BD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Continent",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1600,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R15",
+      "firstName": "Mavis",
+      "lastName": "Duckworth",
+      "sex": "F",
+      "dateOfBirth": "1935-08-14",
+      "age": 91,
+      "unit": "Rose",
+      "room": 15,
+      "admittedOn": "2024-07-12",
+      "conditions": [
+        "Hearing loss",
+        "Osteoporosis",
+        "Heart failure"
+      ],
+      "medications": [
+        "Alendronic acid 70mg weekly",
+        "Adcal-D3 BD",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1600,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R16",
+      "firstName": "Doris",
+      "lastName": "Ogden",
+      "sex": "F",
+      "dateOfBirth": "1941-04-28",
+      "age": 85,
+      "unit": "Willow",
+      "room": 16,
+      "admittedOn": "2023-12-19",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Hoist, assistance of two",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R17",
+      "firstName": "Edna",
+      "lastName": "Greenhalgh",
+      "sex": "F",
+      "dateOfBirth": "1941-07-23",
+      "age": 85,
+      "unit": "Willow",
+      "room": 17,
+      "admittedOn": "2022-09-10",
+      "conditions": [
+        "Dementia",
+        "Osteoarthritis",
+        "Osteoporosis",
+        "Chronic kidney disease",
+        "Heart failure"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Paracetamol 1g QDS",
+        "Alendronic acid 70mg weekly",
+        "Adcal-D3 BD",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Continent",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": [
+        "Takes furosemide in the morning. Frequent toileting through the day and up twice most nights is normal for her."
+      ]
+    },
+    {
+      "id": "R18",
+      "firstName": "Hilda",
+      "lastName": "Entwistle",
+      "sex": "F",
+      "dateOfBirth": "1946-04-25",
+      "age": 80,
+      "unit": "Willow",
+      "room": 18,
+      "admittedOn": "2025-10-19",
+      "conditions": [
+        "Osteoarthritis",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Paracetamol 1g QDS",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1200,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R19",
+      "firstName": "Marjorie",
+      "lastName": "Fletcher",
+      "sex": "F",
+      "dateOfBirth": "1939-01-21",
+      "age": 87,
+      "unit": "Willow",
+      "room": 19,
+      "admittedOn": "2023-01-14",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Chronic kidney disease"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Mild dementia; short-term memory loss",
+      "fluidTargetMl": 1200,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R20",
+      "firstName": "Jean",
+      "lastName": "Brierley",
+      "sex": "F",
+      "dateOfBirth": "1936-01-06",
+      "age": 90,
+      "unit": "Willow",
+      "room": 20,
+      "admittedOn": "2022-05-24",
+      "conditions": [
+        "Hypertension",
+        "Osteoarthritis",
+        "Hearing loss",
+        "Type 2 diabetes",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Metformin 500mg BD",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD"
+      ],
+      "mobility": "Independent",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R21",
+      "firstName": "Cyril",
+      "lastName": "Butterworth",
+      "sex": "M",
+      "dateOfBirth": "1938-12-17",
+      "age": 87,
+      "unit": "Willow",
+      "room": 21,
+      "admittedOn": "2023-03-19",
+      "conditions": [
+        "Dementia",
+        "Hypertension"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R22",
+      "firstName": "Audrey",
+      "lastName": "Kershaw",
+      "sex": "F",
+      "dateOfBirth": "1942-11-15",
+      "age": 83,
+      "unit": "Willow",
+      "room": 22,
+      "admittedOn": "2023-08-27",
+      "conditions": [
+        "Dementia",
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Independent",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R23",
+      "firstName": "Margaret",
+      "lastName": "Haworth",
+      "sex": "F",
+      "dateOfBirth": "1936-08-07",
+      "age": 90,
+      "unit": "Willow",
+      "room": 23,
+      "admittedOn": "2025-12-10",
+      "conditions": [
+        "Hypertension",
+        "Osteoarthritis",
+        "Hearing loss",
+        "Type 2 diabetes",
+        "Heart failure"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Metformin 500mg BD",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R24",
+      "firstName": "Kathleen",
+      "lastName": "Lomax",
+      "sex": "F",
+      "dateOfBirth": "1943-09-05",
+      "age": 83,
+      "unit": "Willow",
+      "room": 24,
+      "admittedOn": "2023-09-21",
+      "conditions": [
+        "Dementia",
+        "Osteoarthritis",
+        "Atrial fibrillation",
+        "Macular degeneration"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Paracetamol 1g QDS",
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD"
+      ],
+      "mobility": "Independent",
+      "continence": "Continent",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R25",
+      "firstName": "Winifred",
+      "lastName": "Holden",
+      "sex": "F",
+      "dateOfBirth": "1941-10-18",
+      "age": 84,
+      "unit": "Willow",
+      "room": 25,
+      "admittedOn": "2021-09-24",
+      "conditions": [
+        "Osteoarthritis",
+        "Osteoporosis",
+        "Previous stroke"
+      ],
+      "medications": [
+        "Paracetamol 1g QDS",
+        "Alendronic acid 70mg weekly",
+        "Adcal-D3 BD",
+        "Clopidogrel 75mg OD",
+        "Atorvastatin 20mg ON"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R26",
+      "firstName": "George",
+      "lastName": "Openshaw",
+      "sex": "M",
+      "dateOfBirth": "1939-10-05",
+      "age": 86,
+      "unit": "Willow",
+      "room": 26,
+      "admittedOn": "2023-07-15",
+      "conditions": [
+        "Atrial fibrillation",
+        "Heart failure"
+      ],
+      "medications": [
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Furosemide 40mg OM",
+        "Ramipril 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R27",
+      "firstName": "Frederick",
+      "lastName": "Clegg",
+      "sex": "M",
+      "dateOfBirth": "1941-04-19",
+      "age": 85,
+      "unit": "Willow",
+      "room": 27,
+      "admittedOn": "2024-06-02",
+      "conditions": [
+        "Atrial fibrillation"
+      ],
+      "medications": [
+        "Apixaban 2.5mg BD",
+        "Bisoprolol 2.5mg OD",
+        "Laxido 1 sachet PRN"
+      ],
+      "mobility": "Wheelchair, assistance of one",
+      "continence": "Continent",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R28",
+      "firstName": "Irene",
+      "lastName": "Heywood",
+      "sex": "F",
+      "dateOfBirth": "1937-03-02",
+      "age": 89,
+      "unit": "Willow",
+      "room": 28,
+      "admittedOn": "2022-07-19",
+      "conditions": [
+        "Hypertension",
+        "Osteoporosis",
+        "Macular degeneration"
+      ],
+      "medications": [
+        "Amlodipine 5mg OD",
+        "Alendronic acid 70mg weekly",
+        "Adcal-D3 BD"
+      ],
+      "mobility": "Hoist, assistance of two",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "No cognitive impairment",
+      "fluidTargetMl": 1500,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R29",
+      "firstName": "Frank",
+      "lastName": "Wood",
+      "sex": "M",
+      "dateOfBirth": "1941-07-25",
+      "age": 85,
+      "unit": "Willow",
+      "room": 29,
+      "admittedOn": "2026-06-15",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Osteoarthritis",
+        "Previous stroke"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS",
+        "Clopidogrel 75mg OD",
+        "Atorvastatin 20mg ON"
+      ],
+      "mobility": "Independent",
+      "continence": "Occasionally incontinent of urine",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1400,
+      "carePlanNotes": []
+    },
+    {
+      "id": "R30",
+      "firstName": "Stanley",
+      "lastName": "Marsden",
+      "sex": "M",
+      "dateOfBirth": "1945-08-27",
+      "age": 81,
+      "unit": "Willow",
+      "room": 30,
+      "admittedOn": "2021-07-23",
+      "conditions": [
+        "Dementia",
+        "Hypertension",
+        "Osteoarthritis"
+      ],
+      "medications": [
+        "Donepezil 5mg ON",
+        "Amlodipine 5mg OD",
+        "Paracetamol 1g QDS"
+      ],
+      "mobility": "Walking frame",
+      "continence": "Wears pads, needs full assistance",
+      "cognition": "Moderate dementia; orientated to person only",
+      "fluidTargetMl": 1200,
+      "carePlanNotes": []
+    }
+  ]
+}
